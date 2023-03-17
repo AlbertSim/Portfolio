@@ -35,6 +35,7 @@ app.get('/software', (req, res) => {
 });
 
 // Start the server
-app.listen(80, () => {
-  console.log('Server listening on port 80');
+const PORT = process.env.PORT || 80;
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
 });
