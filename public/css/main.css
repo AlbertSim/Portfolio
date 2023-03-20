@@ -9,7 +9,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #212121;
+    background-color: #AFE1AF;
     color: #ffffff;
     padding: 1rem;
 }
@@ -20,7 +20,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #424242;
+    background-color: #AFE1AF;
 }
 
     nav a {
@@ -44,7 +44,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #212121;
+    background-color: #2E8B57;
     color: #ffffff;
     padding: 1rem;
     text-align: center;
