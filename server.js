@@ -30,9 +30,9 @@ app.get('/engineering', (req, res) => {
 });
 */
 
-app.get('/software', (req, res) => {
+/*app.get('/software', (req, res) => {
   res.render('software');
-});
+});*/
 
 // Start the server
 const PORT = process.env.PORT || 80;
