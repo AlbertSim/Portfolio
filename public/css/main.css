@@ -16,23 +16,38 @@ header {
 
 /* Navigation styles */
 nav {
-    display: flex;
-    justify-content: space-between;
+    width: auto;
+    justify-content: center;
     align-items: center;
+    grid-gap: 2rem;
     padding: 1rem;
     background-color: #AFE1AF;
 }
-
+        
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav img {
+        max-width: 100%;
+        height: auto;
+    }
+    
     nav a {
-        color: #ffffff;
-        text-decoration: none;
-        margin: 0 1rem;
-        font-weight: bold;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20px, 128px));
+        padding: 16px;
+        border-radius: 5px;
     }
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+    nav a:hover {
+        text-decoration: underline;
+    }
 
 /* Main content styles */
 main {
